@@ -35,7 +35,7 @@ To view the landing page locally, clone the repository and open `index.html` in 
 
 3. Open `index.html` in your browser
 
-Or you can visit this ![link](Nyot-Nyot.github.io/foundation-landing-page) to view the landing page online
+Or you can visit this ![link](https://nyot-nyot.github.io/foundation-landing-page/) to view the landing page online
 
 
 ## License

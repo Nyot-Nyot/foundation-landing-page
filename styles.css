@@ -27,6 +27,7 @@ a {text-decoration: none; color: var(--text);}
 :root {
 	--text: #010d11;
     --background: #f2fbfe;
+    --background-darker: #ededed;
     --primary: #1ab1f5;
     --secondary: #c778f9;
     --accent: #f73df6;
@@ -38,7 +39,7 @@ a {text-decoration: none; color: var(--text);}
 	justify-content: space-between;
 	align-items: center;
 	flex: 1;
-	padding: 20px 80px;
+	padding: 20px 100px;
     gap: 20px;
 	background-color: var(--primary);
 }
@@ -59,8 +60,8 @@ a {text-decoration: none; color: var(--text);}
     align-items: center;
     flex-wrap: wrap;
     flex: 1 0 auto;
-    margin: 80px;
-    gap: 50px;
+    margin: 200px 100px;
+    gap: 100px;
 }
 
 .flex-column {
@@ -85,12 +86,48 @@ button {
 .img {
     background-color: var(--accent);
     color: var(--background);
-    width: 300px;
-    height: 200px;
+    width: 400px;
+    height: 250px;
     padding: 20px;
     border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 0 0 auto;
+    flex: 0 1 auto;
+}
+
+/* content */
+.card-img {
+    border: var(--accent) 5px solid;
+    color: var(--text);
+    width: 200px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.card {
+    width: 200px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin: 20px 100px;
+}
+
+.content {
+    background-color: var(--background-darker);
+    margin: 100px 0px;
+    padding: 30px 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
