@@ -6,14 +6,7 @@ body {
 	background-color: var(--background);
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
-	font-family: "Roboto";
-	font-weight: 700;
-}
+h1, h2, h3, h4, h5 {font-family: "Roboto"; font-weight: 700;}
 
 html {font-size: 100%;} /* 16px */
 
@@ -45,7 +38,8 @@ a {text-decoration: none; color: var(--text);}
 	justify-content: space-between;
 	align-items: center;
 	flex: 1;
-	padding: 20px 60px;
+	padding: 20px 80px;
+    gap: 20px;
 	background-color: var(--primary);
 }
 
@@ -56,4 +50,47 @@ a {text-decoration: none; color: var(--text);}
 .nav {
     display: flex;
     gap: 15px;
+}
+
+/* Hero */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 1 0 auto;
+    margin: 80px;
+    gap: 50px;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    width: 300px;
+    gap: 20px;
+}
+
+button {
+    display: inline-block;
+    max-width: 100px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--secondary);
+    color: var(--background);
+    cursor: pointer;
+}
+
+.img {
+    background-color: var(--accent);
+    color: var(--background);
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 auto;
 }
