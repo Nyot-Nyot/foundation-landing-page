@@ -1,33 +1,59 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:700|Roboto:400');
+@import url("https://fonts.googleapis.com/css?family=Roboto:700|Roboto:400");
 
 body {
-    font-family: 'Roboto', 'sans-serif';
-    font-weight: 400;
+	font-family: "Roboto", "sans-serif";
+	font-weight: 400;
+	background-color: var(--background);
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Roboto';
-    font-weight: 700;
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: "Roboto";
+	font-weight: 700;
 }
 
 html {font-size: 100%;} /* 16px */
 
-h1 {font-size: 4.210rem; /* 67.36px */}
+h1 {font-size: 4.21rem; margin: 0; /* 67.36px */}
 
-h2 {font-size: 3.158rem; /* 50.56px */}
+h2 {font-size: 3.158rem; margin: 0; /* 50.56px */}
 
-h3 {font-size: 2.369rem; /* 37.92px */}
+h3 {font-size: 2.369rem; margin: 0; /* 37.92px */}
 
-h4 {font-size: 1.777rem; /* 28.48px */}
+h4 {font-size: 1.777rem; margin: 0; /* 28.48px */}
 
-h5 {font-size: 1.333rem; /* 21.28px */}
+h5 {font-size: 1.333rem; margin: 0; /* 21.28px */}
 
-small {font-size: 0.750rem; /* 12px */}
+small {font-size: 0.75rem; /* 12px */}
+
+a {text-decoration: none; color: var(--text);}
 
 :root {
-    --text: #250205;
-    --background: #feeef0;
-    --primary: #f01b2b;
-    --secondary: #e6f783;
-    --accent: #92f34a;
+	--text: #010d11;
+    --background: #f2fbfe;
+    --primary: #1ab1f5;
+    --secondary: #c778f9;
+    --accent: #f73df6;
+}
+
+/* Header */
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex: 1;
+	padding: 20px 60px;
+	background-color: var(--primary);
+}
+
+.header h4, .header a {
+    color: var(--background);
+}
+
+.nav {
+    display: flex;
+    gap: 15px;
 }
