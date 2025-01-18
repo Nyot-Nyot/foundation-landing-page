@@ -28,6 +28,7 @@ a {text-decoration: none; color: var(--text);}
 	--text: #010d11;
     --background: #f2fbfe;
     --background-darker: #ededed;
+    --background-dark: #acacac;
     --primary: #1ab1f5;
     --secondary: #c778f9;
     --accent: #f73df6;
@@ -130,4 +131,34 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+/* quote */
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 60px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    border: 3px solid var(--secondary);
+    border-radius: 5px;
+    width: 100%;
+    max-width: 700px;
+    padding: 30px;
+    flex: 0 1 auto;
+}
+
+.quote h5 {
+    font-weight: normal;
+    font-style: italic;
+}
+
+.quote p {
+    font-weight: 700;
 }
