@@ -139,7 +139,7 @@ button {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 60px;
+    margin: 100px 70px;
 }
 
 .quote {
@@ -161,4 +161,22 @@ button {
 
 .quote p {
     font-weight: 700;
+}
+
+/* CTA */
+.cta-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 70px;
+    margin: 70px 0px;
+    padding: 50px;
+    background-color: var(--primary);
+    color: var(--background);
 }
